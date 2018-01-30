@@ -1397,7 +1397,7 @@ function visualize(data) {
 
             realtime += singleStepAnimationSpeed*4*0.001*dt;
             if (realtime >= targetTime) {
-                realtime = targetTime - 0.001;
+                realtime = targetTime + 0.001;
             } else {
                 requestAnimationFrame(f);
             }
